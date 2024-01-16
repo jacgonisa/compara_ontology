@@ -495,7 +495,7 @@ rdfs:label rdf:type owl:NamedIndividual .
 rdfs:label rdfs:label "label" .
 
 
-<http://www.w3.org/def/compara_ontology/GeneTrees> rdfs:label "GeneTrees" .
+<http://www.w3.org/def/compara_ontology/GeneTrees> rdfs:label "GeneTree" .
 
 
 <http://www.w3.org/def/compara_ontology/HomologGroup> rdfs:label "HomologGroup" .
@@ -519,7 +519,7 @@ rdfs:label rdfs:label "label" .
 <http://www.w3.org/def/compara_ontology/Speciation> rdfs:label "Speciation" .
 
 
-<http://www.w3.org/def/compara_ontology/SpeciesTrees> rdfs:label "SpeciesTrees" .
+<http://www.w3.org/def/compara_ontology/SpeciesTrees> rdfs:label "SpeciesTree" .
 
 
 <http://www.w3.org/def/compara_ontology/involves> rdfs:label "involves" .
