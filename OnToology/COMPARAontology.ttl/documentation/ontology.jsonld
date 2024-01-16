@@ -374,7 +374,7 @@
   "@id" : "http://www.w3.org/def/compara_ontology/GeneTrees",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "GeneTrees"
+    "@value" : "GeneTree"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/def/compara_ontology/PhylogeneticTree"
@@ -461,7 +461,7 @@
   "@id" : "http://www.w3.org/def/compara_ontology/SpeciesTrees",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "SpeciesTrees"
+    "@value" : "SpeciesTree"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/def/compara_ontology/PhylogeneticTree"

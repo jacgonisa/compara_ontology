@@ -827,7 +827,7 @@
         <rdfs:label>label</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/def/compara_ontology/GeneTrees">
-        <rdfs:label>GeneTrees</rdfs:label>
+        <rdfs:label>GeneTree</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/def/compara_ontology/HomologGroup">
         <rdfs:label>HomologGroup</rdfs:label>
@@ -851,7 +851,7 @@
         <rdfs:label>Speciation</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/def/compara_ontology/SpeciesTrees">
-        <rdfs:label>SpeciesTrees</rdfs:label>
+        <rdfs:label>SpeciesTree</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/def/compara_ontology/involves">
         <rdfs:label>involves</rdfs:label>
