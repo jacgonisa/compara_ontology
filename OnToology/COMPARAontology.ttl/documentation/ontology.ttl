@@ -7,13 +7,14 @@
 @base <https://w3id.org/def/compara_ontology#> .
 
 <https://w3id.org/def/compara_ontology#> rdf:type owl:Ontology ;
-                                          owl:versionIRI <https://w3id.org/def/compara_ontology/0.1> ;
+                                          owl:versionIRI <https://w3id.org/def/compara_ontology> ;
                                           <http://purl.org/dc/elements/1.1/created> "2021-01-01"^^xsd:date ;
                                           <http://purl.org/dc/elements/1.1/creator> "Jacob González Isa" ,
                                                                                     "Jimena Martín Reina" ;
                                           <http://purl.org/dc/elements/1.1/description> "COMPARA (Comparative Analysis and Molecular Phylogenetics for Advanced Research) ontology aims to facilitate data sharing and interoperability among the scientific community working in evolution and comparative genomics."@en ;
                                           <http://purl.org/dc/elements/1.1/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                           <http://purl.org/dc/elements/1.1/title> "COMPARA ontology"@en ;
+                                          <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "compara" ;
                                           <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/def/compara_ontology#> ;
                                           owl:versionInfo "0.1" ;
@@ -41,6 +42,10 @@
 
 ###  http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespacePrefix

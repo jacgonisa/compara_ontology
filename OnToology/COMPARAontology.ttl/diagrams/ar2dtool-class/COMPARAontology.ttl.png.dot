@@ -7,8 +7,9 @@ node [shape = rectangle, color="orange"]; "sio:SIO_000030" "sio:SIO_010067" "com
 	"obo:NCIT_C16607" -> "comp:Speciation" [ label = "owl:disjointWith" ];
 	"compara:" -> "https://creativecommons.org/licenses/by/4.0/" [ label = "dc:license" ];
 	"compara:" -> "compara:" [ label = "vann:preferredNamespaceUri" ];
-	"compara:" -> "https://w3id.org/def/compara_ontology/0.1" [ label = "owl:versionIRI" ];
+	"compara:" -> "https://creativecommons.org/licenses/by/4.0/" [ label = "dcterms:license" ];
 	"compara:" -> "https://chowlk.linkeddata.es/" [ label = "mod:createdWith" ];
+	"compara:" -> "https://w3id.org/def/compara_ontology" [ label = "owl:versionIRI" ];
 	"comp:GeneTrees" -> "comp:SpeciesTrees" [ label = "owl:disjointWith" ];
 	"NULL" -> "sio:SIO_000030" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "comp:PhylogeneticTree" [ label = "owl:allValuesFrom" ];
