@@ -8,15 +8,17 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:vann="http://purl.org/vocab/vann/">
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/def/compara_ontology#">
-        <owl:versionIRI rdf:resource="https://w3id.org/def/compara_ontology/0.1"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/def/compara_ontology"/>
         <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</dc:created>
         <dc:creator>Jacob González Isa</dc:creator>
         <dc:creator>Jimena Martín Reina</dc:creator>
         <dc:description xml:lang="en">COMPARA (Comparative Analysis and Molecular Phylogenetics for Advanced Research) ontology aims to facilitate data sharing and interoperability among the scientific community working in evolution and comparative genomics.</dc:description>
         <dc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dc:title xml:lang="en">COMPARA ontology</dc:title>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <vann:preferredNamespacePrefix>compara</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://w3id.org/def/compara_ontology#"/>
         <owl:versionInfo>0.1</owl:versionInfo>
@@ -69,6 +71,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
