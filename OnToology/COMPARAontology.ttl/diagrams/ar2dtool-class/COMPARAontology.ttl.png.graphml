@@ -5,7 +5,7 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="39" parse.nodes="33" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="38" parse.nodes="33" parse.order="free">
       <node id="nid_comp:OrthologGroup">
          <data key="d0">
             <y:ShapeNode>
@@ -157,17 +157,6 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_dcterms:license5" source="nid_compara:" target="nid_https://creativecommons.org/licenses/by/4.0/">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">dcterms:license</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
       <node id="nid_https://chowlk.linkeddata.es/">
          <data key="d0">
             <y:ShapeNode>
@@ -180,7 +169,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_mod:createdWith6" source="nid_compara:" target="nid_https://chowlk.linkeddata.es/">
+    <edge id="eid_mod:createdWith5" source="nid_compara:" target="nid_https://chowlk.linkeddata.es/">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -203,7 +192,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:versionIRI7" source="nid_compara:" target="nid_https://w3id.org/def/compara_ontology">
+    <edge id="eid_owl:versionIRI6" source="nid_compara:" target="nid_https://w3id.org/def/compara_ontology">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -238,7 +227,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:disjointWith8" source="nid_comp:GeneTrees" target="nid_comp:SpeciesTrees">
+    <edge id="eid_owl:disjointWith7" source="nid_comp:GeneTrees" target="nid_comp:SpeciesTrees">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -273,7 +262,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom9" source="nid_NULL" target="nid_sio:SIO_000030">
+    <edge id="eid_owl:allValuesFrom8" source="nid_NULL" target="nid_sio:SIO_000030">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -296,7 +285,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom10" source="nid_NULL" target="nid_comp:PhylogeneticTree">
+    <edge id="eid_owl:allValuesFrom9" source="nid_NULL" target="nid_comp:PhylogeneticTree">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -319,7 +308,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom11" source="nid_NULL" target="nid_sio:SIO_000750">
+    <edge id="eid_owl:allValuesFrom10" source="nid_NULL" target="nid_sio:SIO_000750">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -342,7 +331,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty12" source="nid_NULL" target="nid_sio:SIO_000229">
+    <edge id="eid_owl:onProperty11" source="nid_NULL" target="nid_sio:SIO_000229">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -365,7 +354,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty13" source="nid_NULL" target="nid_sio:SIO_001278">
+    <edge id="eid_owl:onProperty12" source="nid_NULL" target="nid_sio:SIO_001278">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -388,7 +377,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty14" source="nid_NULL" target="nid_dcterms:source">
+    <edge id="eid_owl:onProperty13" source="nid_NULL" target="nid_dcterms:source">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -411,7 +400,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom15" source="nid_NULL" target="nid_http://semanticscience.org/resource/ SIO_010016">
+    <edge id="eid_owl:allValuesFrom14" source="nid_NULL" target="nid_http://semanticscience.org/resource/ SIO_010016">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -434,7 +423,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty16" source="nid_NULL" target="nid_sio:SIO_000557">
+    <edge id="eid_owl:onProperty15" source="nid_NULL" target="nid_sio:SIO_000557">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -445,7 +434,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:allValuesFrom17" source="nid_NULL" target="nid_comp:Speciation">
+    <edge id="eid_owl:allValuesFrom16" source="nid_NULL" target="nid_comp:Speciation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -468,23 +457,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty18" source="nid_NULL" target="nid_sio:SIO_000339">
+    <edge id="eid_owl:onProperty17" source="nid_NULL" target="nid_sio:SIO_000339">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:allValuesFrom19" source="nid_NULL" target="nid_obo:NCIT_C16607">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:allValuesFrom</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -502,7 +480,18 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom20" source="nid_NULL" target="nid_sio:SIO_000160">
+    <edge id="eid_owl:allValuesFrom18" source="nid_NULL" target="nid_sio:SIO_000160">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:allValuesFrom</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:allValuesFrom19" source="nid_NULL" target="nid_obo:NCIT_C16607">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -525,7 +514,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty21" source="nid_NULL" target="nid_comp:involves">
+    <edge id="eid_owl:onProperty20" source="nid_NULL" target="nid_comp:involves">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -548,7 +537,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty22" source="nid_NULL" target="nid_sio:SIO_000068">
+    <edge id="eid_owl:onProperty21" source="nid_NULL" target="nid_sio:SIO_000068">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -571,7 +560,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty23" source="nid_NULL" target="nid_sio:SIO_001157">
+    <edge id="eid_owl:onProperty22" source="nid_NULL" target="nid_sio:SIO_001157">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -594,7 +583,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom24" source="nid_NULL" target="nid_sio:SIO_010035">
+    <edge id="eid_owl:allValuesFrom23" source="nid_NULL" target="nid_sio:SIO_010035">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -617,7 +606,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty25" source="nid_NULL" target="nid_sio:SIO_000244">
+    <edge id="eid_owl:onProperty24" source="nid_NULL" target="nid_sio:SIO_000244">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -640,7 +629,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom26" source="nid_NULL" target="nid_sio:SIO_010067">
+    <edge id="eid_owl:allValuesFrom25" source="nid_NULL" target="nid_sio:SIO_010067">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -663,7 +652,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty27" source="nid_NULL" target="nid_sio:SIO_010079">
+    <edge id="eid_owl:onProperty26" source="nid_NULL" target="nid_sio:SIO_010079">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -686,7 +675,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_sio:SIO_01007928" source="nid_sio:SIO_010015" target="nid_http://semanticscience.org/resource/ SIO_010016">
+    <edge id="eid_sio:SIO_01007927" source="nid_sio:SIO_010015" target="nid_http://semanticscience.org/resource/ SIO_010016">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -697,7 +686,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_sio:SIO_00024429" source="nid_sio:SIO_010067" target="nid_sio:SIO_000030">
+    <edge id="eid_sio:SIO_00024428" source="nid_sio:SIO_010067" target="nid_sio:SIO_000030">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -708,7 +697,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_sio:SIO_00006830" source="nid_sio:SIO_010035" target="nid_http://semanticscience.org/resource/ SIO_010016">
+    <edge id="eid_sio:SIO_00006829" source="nid_sio:SIO_010035" target="nid_http://semanticscience.org/resource/ SIO_010016">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -719,7 +708,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_dcterms:source31" source="nid_sio:SIO_000030" target="nid_sio:SIO_000750">
+    <edge id="eid_dcterms:source30" source="nid_sio:SIO_000030" target="nid_sio:SIO_000750">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -742,7 +731,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_comp:involves32" source="nid_comp:HomologGroup" target="nid_sio:SIO_010035">
+    <edge id="eid_comp:involves31" source="nid_comp:HomologGroup" target="nid_sio:SIO_010035">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -765,7 +754,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_sio:SIO_00022933" source="nid_sio:SIO_000101" target="nid_sio:SIO_010067">
+    <edge id="eid_sio:SIO_00022932" source="nid_sio:SIO_000101" target="nid_sio:SIO_010067">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -776,7 +765,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_sio:SIO_00115734" source="nid_comp:OrthologGroup" target="nid_obo:NCIT_C16607">
+    <edge id="eid_sio:SIO_00115733" source="nid_comp:OrthologGroup" target="nid_obo:NCIT_C16607">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -787,7 +776,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_sio:SIO_00033935" source="nid_comp:PhylogeneticTree" target="nid_sio:SIO_010067">
+    <edge id="eid_sio:SIO_00033934" source="nid_comp:PhylogeneticTree" target="nid_sio:SIO_010067">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -798,7 +787,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_sio:SIO_00127836" source="nid_sio:SIO_000101" target="nid_sio:SIO_000160">
+    <edge id="eid_sio:SIO_00127835" source="nid_sio:SIO_000101" target="nid_sio:SIO_000160">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -809,7 +798,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_sio:SIO_01030237" source="nid_sio:SIO_010035" target="nid_sio:SIO_010035">
+    <edge id="eid_sio:SIO_01030236" source="nid_sio:SIO_010035" target="nid_sio:SIO_010035">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -820,7 +809,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_sio:SIO_00055738" source="nid_comp:HomologGroup" target="nid_comp:PhylogeneticTree">
+    <edge id="eid_sio:SIO_00055737" source="nid_comp:HomologGroup" target="nid_comp:PhylogeneticTree">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
