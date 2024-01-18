@@ -14,12 +14,13 @@
 @base <https://w3id.org/def/compara_ontology#> .
 
 <https://w3id.org/def/compara_ontology#> rdf:type owl:Ontology ;
-                                          owl:versionIRI <https://w3id.org/def/compara_ontology/0.1> ;
+                                          owl:versionIRI <https://w3id.org/def/compara_ontology> ;
                                           dc:created "2021-01-01"^^xsd:date ;
                                           dc:creator "Jacob González Isa" ,
                                                      "Jimena Martín Reina" ;
                                           dc:description "COMPARA (Comparative Analysis and Molecular Phylogenetics for Advanced Research) ontology aims to facilitate data sharing and interoperability among the scientific community working in evolution and comparative genomics."@en ;
                                           dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                          dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
                                           dc:title "COMPARA ontology"@en ;
                                           vann:preferredNamespacePrefix "compara" ;
                                           vann:preferredNamespaceUri <https://w3id.org/def/compara_ontology#> ;
