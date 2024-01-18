@@ -20,7 +20,7 @@
       "@id" : "http://www.w3.org/def/compara_ontology/Speciation"
     },
     "license" : {
-      "@id" : "http://purl.org/dc/terms/license"
+      "@id" : "http://purl.org/dc/elements/1.1/license"
     },
     "SIO_010067" : {
       "@id" : "http://semanticscience.org/resource/SIO_010067"
